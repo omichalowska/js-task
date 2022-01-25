@@ -52,7 +52,7 @@ function compareUsers() {
         }
 
         if (user1.firstName !== user2.firstName) {
-            console.log(`First names of user with ID ${user1.userId} are not the same. First name is: ${user1.firstName}; but second name is: ${user2.firstName}.`)  
+            console.log(`First names of user with ID ${user1.userId} are not the same. First name is: ${user1.firstName}; but second first name is: ${user2.firstName}.`)  
         }
         
         if (user1.lastName !== user2.lastName) {
@@ -60,7 +60,7 @@ function compareUsers() {
         }
 
         if (user1.phoneNumber !== user2.phoneNumber) {
-            console.log(`Last names of user with ID ${user1.userId} are not the same. First last name is: ${user1.phoneNumber}; but second last name is: ${user2.phoneNumber}.`)  
+            console.log(`Phone numbers of user with ID ${user1.userId} are not the same. First phone number is: ${user1.phoneNumber}; but second phone number is: ${user2.phoneNumber}.`)  
         }
     })
 
